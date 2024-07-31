@@ -22,12 +22,6 @@ import ru.yandex.practicum.contacts.presentation.filter.model.FilterContactType;
 import ru.yandex.practicum.contacts.presentation.filter.model.FilterContactTypeUi;
 import ru.yandex.practicum.contacts.utils.model.ContactTypeUtils;
 import ru.yandex.practicum.contacts.utils.model.FilterContactTypeUtils;
-import ru.yandex.practicum.contacts.presentation.filter.model.FilterContactTypeUi;
-
-import androidx.recyclerview.widget.AsyncListDiffer;
-import androidx.recyclerview.widget.DiffUtil;
-
-import ru.yandex.practicum.contacts.presentation.base.BaseListDiffCallback;
 
 
 public class FilterContactTypeAdapter extends RecyclerView.Adapter<FilterContactTypeAdapter.ViewHolder> {

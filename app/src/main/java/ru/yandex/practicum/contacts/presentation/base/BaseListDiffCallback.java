@@ -22,4 +22,3 @@ public class BaseListDiffCallback<T extends ListDiffInterface<T>> extends DiffUt
         return newItem;
     }
 }
-

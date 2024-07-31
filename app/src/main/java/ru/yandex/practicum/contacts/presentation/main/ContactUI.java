@@ -5,10 +5,9 @@ import androidx.annotation.NonNull;
 import java.util.List;
 
 import ru.yandex.practicum.contacts.model.ContactType;
-
 import ru.yandex.practicum.contacts.presentation.base.ListDiffInterface;
 
-public class ContactUI implements ListDiffInterface<ContactUI>{
+public class ContactUI implements ListDiffInterface<ContactUI> {
 
     private final String name;
     private final String phone;
@@ -42,7 +41,6 @@ public class ContactUI implements ListDiffInterface<ContactUI>{
     public List<ContactType> getTypes() {
         return types;
     }
-
 
 
     @Override
